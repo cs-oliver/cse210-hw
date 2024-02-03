@@ -13,7 +13,6 @@ namespace DailyJournal
             bool quit = false;
             while (!quit)
             {
-                Console.WriteLine("\nWelcome to the Journal Program");
                 Console.WriteLine("Please Select one of the following choices:");
                 Console.WriteLine("1. Write");
                 Console.WriteLine("2. Display");
@@ -43,11 +42,11 @@ namespace DailyJournal
                         quit = true;
                         break;
                     default:
-                        Console.WriteLine("Invalid choice.");
+                        Console.WriteLine("This is not one of the given options.");
                         break;
                 }
             }
-            Console.WriteLine("Until next time, keep writing!");
+            Console.WriteLine("Have a great day. Goodbye!");
         }
 
         static string GetRandomPrompt(List<string> prompts)
