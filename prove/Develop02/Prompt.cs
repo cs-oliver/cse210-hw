@@ -6,7 +6,6 @@ namespace JournalProgram
     {
         public static List<string> GetPrompts()
         {
-
             return new List<string>
             {
                 "Who was the most interesting person I interacted with today?",

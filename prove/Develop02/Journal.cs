@@ -15,7 +15,7 @@ namespace JournalProgram
         {
             Console.Write(prompt + " ");
             string response = Console.ReadLine();
-            string date = DateTime.Now.ToString("MM/dd/yyyy");
+            string date = DateTime.Now.ToString("dd/mm/yyyy");
             entries.Add(new Entry(prompt, response, date));
         }
 
