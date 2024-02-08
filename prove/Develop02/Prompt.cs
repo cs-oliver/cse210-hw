@@ -1,6 +1,6 @@
 using System;
 
-namespace DailyJournal
+namespace JournalProgram
 {
     public static class Prompt
     {
